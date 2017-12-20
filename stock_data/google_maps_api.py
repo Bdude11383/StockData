@@ -7,7 +7,7 @@ class Location:
         self.formatted_address = address
         self.location = location
 
-apikey = "AIzaSyDFW27XIefXWHs2c0baP2cRhdbJs0QMnos"
+apikey = "YOUR_API_KEY"
 
 def get_coordinates(query):
     query = query.replace(" ", "+")
